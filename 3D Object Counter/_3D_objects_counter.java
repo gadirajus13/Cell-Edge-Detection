@@ -137,14 +137,6 @@ public class _3D_objects_counter implements PlugIn, AdjustmentListener, FocusLis
         gd.addNumericField("Min.",minSize, 0);
         gd.addNumericField("Max.", maxSize, 0);
         gd.addCheckbox("Exclude_objects_on_edges", excludeOnEdges);
-        gd.addMessage("Maps to show: ");
-        gd.addCheckbox("Objects", showObj);
-        gd.addCheckbox("Surfaces", showSurf);
-        gd.addCheckbox("Centroids", showCentro);
-        gd.addCheckbox("Centres_of_masses", showCOM);
-        gd.addMessage("Results tables to show: ");
-        gd.addCheckbox("Statistics", showStat);
-        gd.addCheckbox("Summary", showSummary);
         
         if (redirect) gd.addMessage("\nRedirection:\nImage used as a mask: "+this.title+"\nMeasures will be done on: "+this.redirectTo+(showMaskedImg?"\nMasked image will be shown":"")+".");
         if (closeImg) gd.addMessage("\nCaution:\nImage(s) will be closed during the processing\n(see 3D-OC options to change this setting).");
@@ -162,12 +154,12 @@ public class _3D_objects_counter implements PlugIn, AdjustmentListener, FocusLis
         minSize=(int) gd.getNextNumber();
         maxSize=(int) gd.getNextNumber();
         excludeOnEdges=gd.getNextBoolean();
-        showObj=gd.getNextBoolean();
-        showSurf=gd.getNextBoolean();
-        showCentro=gd.getNextBoolean();
-        showCOM=gd.getNextBoolean();
-        showStat=gd.getNextBoolean();
-        showSummary=gd.getNextBoolean();
+        showObj=true;
+        showSurf=true;
+        showCentro=true;
+        showCOM=true;
+        showStat=true;
+        showSummary= true;
 
         Prefs.set("3D-OC_minSize.double", minSize);
         Prefs.set("3D-OC_excludeOnEdges.boolean", excludeOnEdges);
