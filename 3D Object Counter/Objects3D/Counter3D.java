@@ -530,9 +530,9 @@ public class Counter3D {
     }
     
     /**
-     * Returns the centroïds' list.
+     * Returns the centroï¿½ds' list.
      *
-     * @return the coordinates of all found centroïds as a dual float array ([ID][0:x, 1:y, 2:z]).
+     * @return the coordinates of all found centroï¿½ds as a dual float array ([ID][0:x, 1:y, 2:z]).
      */
     public float[][] getCentroidList(){
         if (!getCentroid) populateCentroid();
@@ -540,11 +540,11 @@ public class Counter3D {
     }
     
     /**
-     * Returns the centroïds' map.
+     * Returns the centroï¿½ds' map.
      * @param drawNb should be true if numbers have to be drawn at each coordinate stored in cenArray (boolean).
      * @param whiteNb should be true if numbers have to appear white  (boolean).
      * @param dotSize size of the dots to be drawn (integer).
-     * @param fontSize font size of the numbers to be shown (integer).* @return an ImagePlus containing all centroïds, each one carrying pixel value equal to its ID.
+     * @param fontSize font size of the numbers to be shown (integer).* @return an ImagePlus containing all centroï¿½ds, each one carrying pixel value equal to its ID.
      */
     public ImagePlus getCentroidMap(boolean drawNb, boolean whiteNb, int dotSize, int fontSize){
         if (!getCentroid) populateCentroid();
@@ -553,9 +553,9 @@ public class Counter3D {
     }
     
     /**
-     * Returns the centroïds' map.
+     * Returns the centroï¿½ds' map.
      *
-     * @return an ImagePlus containing all centroïds, each one carrying pixel value equal to its ID.
+     * @return an ImagePlus containing all centroï¿½ds, each one carrying pixel value equal to its ID.
      */
     public ImagePlus getCentroidMap(){
         if (!getCentroid) populateCentroid();
@@ -713,7 +713,7 @@ public class Counter3D {
     /** Returns an ResultsTable containing statistics on objects:</P>
      * Volume and Surface: number of pixel forming the structures and at its surface respectively.</P>
      * StdDev, Median, IntDen, Min and Max: standard deviation, median, sum, minimum and maximum of all intensities for the current object.</P>
-     * X, Y and Z: coordinates of the current object's centroïd.</P>
+     * X, Y and Z: coordinates of the current object's centroï¿½d.</P>
      * XM, YM and ZM: coordinates of the current object's centre of mass.</P>
      * BX, BY and BZ: coordinates of the top-left corner of the current object's bounding box.</P>
      * B-width, B-height and B-depth: current object's bounding box dimensions.</P>

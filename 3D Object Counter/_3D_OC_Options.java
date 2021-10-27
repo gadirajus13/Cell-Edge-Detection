@@ -21,7 +21,6 @@
  
  */
 
-
 import ij.*;
 import ij.plugin.*;
 import ij.gui.*;

@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "3D Object Counter/3d-oc_.jar",
+        "3D Object Counter/ij.jar"
+    ]
+}

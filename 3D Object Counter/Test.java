@@ -1,4 +1,3 @@
-
 import ij.ImageJ;
 import java.io.File;
 

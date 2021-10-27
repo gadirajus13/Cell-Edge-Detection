@@ -3,7 +3,7 @@
  *
  * Created on 7 novembre 2007, 11:54
  *
- * Copyright (C) 2007 Fabrice P. Cordelières
+ * Copyright (C) 2007 Fabrice P. Cordeliï¿½res
  *  
  * License:
  * This program is free software; you can redistribute it and/or modify
@@ -20,7 +20,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  
  */
-
 
 import ij.*;
 import ij.ImagePlus.*;
